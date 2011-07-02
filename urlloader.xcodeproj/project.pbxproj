@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD0D89C13A5622700055F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD0D89B13A5622700055F92 /* Foundation.framework */; };
+		AAD0D8A713A562F300055F92 /* URLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD0D8A513A562F300055F92 /* URLObject.h */; };
+		AAD0D8A813A562F300055F92 /* ULRObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD0D8A613A562F300055F92 /* ULRObject.m */; };
+		AAD0D8B913A570FF00055F92 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD0D8B813A570FF00055F92 /* Log.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAD0D89813A5622700055F92 /* liburlloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liburlloader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD0D89B13A5622700055F92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAD0D89F13A5622700055F92 /* urlloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "urlloader-Prefix.pch"; sourceTree = "<group>"; };
+		AAD0D8A513A562F300055F92 /* URLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLObject.h; sourceTree = "<group>"; };
+		AAD0D8A613A562F300055F92 /* ULRObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULRObject.m; sourceTree = "<group>"; };
+		AAD0D8B813A570FF00055F92 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Log.h; path = ../../common/Log.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD0D89513A5622700055F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD0D89C13A5622700055F92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD0D88D13A5622700055F92 = {
+			isa = PBXGroup;
+			children = (
+				AAD0D89D13A5622700055F92 /* urlloader */,
+				AAD0D89A13A5622700055F92 /* Frameworks */,
+				AAD0D89913A5622700055F92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD0D89913A5622700055F92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0D89813A5622700055F92 /* liburlloader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD0D89A13A5622700055F92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0D89B13A5622700055F92 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAD0D89D13A5622700055F92 /* urlloader */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0D8B713A570F400055F92 /* common */,
+				AAD0D89E13A5622700055F92 /* Supporting Files */,
+				AAD0D8A513A562F300055F92 /* URLObject.h */,
+				AAD0D8A613A562F300055F92 /* ULRObject.m */,
+			);
+			path = urlloader;
+			sourceTree = "<group>";
+		};
+		AAD0D89E13A5622700055F92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0D89F13A5622700055F92 /* urlloader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAD0D8B713A570F400055F92 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0D8B813A570FF00055F92 /* Log.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AAD0D89613A5622700055F92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD0D8A713A562F300055F92 /* URLObject.h in Headers */,
+				AAD0D8B913A570FF00055F92 /* Log.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AAD0D89713A5622700055F92 /* urlloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD0D8A213A5622700055F92 /* Build configuration list for PBXNativeTarget "urlloader" */;
+			buildPhases = (
+				AAD0D89413A5622700055F92 /* Sources */,
+				AAD0D89513A5622700055F92 /* Frameworks */,
+				AAD0D89613A5622700055F92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = urlloader;
+			productName = urlloader;
+			productReference = AAD0D89813A5622700055F92 /* liburlloader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD0D88F13A5622700055F92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = clov3r.net;
+			};
+			buildConfigurationList = AAD0D89213A5622700055F92 /* Build configuration list for PBXProject "urlloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAD0D88D13A5622700055F92;
+			productRefGroup = AAD0D89913A5622700055F92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD0D89713A5622700055F92 /* urlloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD0D89413A5622700055F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD0D8A813A562F300055F92 /* ULRObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAD0D8A013A5622700055F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAD0D8A113A5622700055F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AAD0D8A313A5622700055F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/urlloader.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "urlloader/urlloader-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAD0D8A413A5622700055F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/urlloader.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "urlloader/urlloader-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD0D89213A5622700055F92 /* Build configuration list for PBXProject "urlloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD0D8A013A5622700055F92 /* Debug */,
+				AAD0D8A113A5622700055F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD0D8A213A5622700055F92 /* Build configuration list for PBXNativeTarget "urlloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD0D8A313A5622700055F92 /* Debug */,
+				AAD0D8A413A5622700055F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD0D88F13A5622700055F92 /* Project object */;
+}
